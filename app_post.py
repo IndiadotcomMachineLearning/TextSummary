@@ -12,10 +12,10 @@ import json
 
 
 model = AutoModelForSeq2SeqLM.from_pretrained(
-        "model")
+        "C:\\Text_Summary\\model")
 
 tokenizer = AutoTokenizer.from_pretrained(
-        "model")
+        "C:\\Text_Summary\\model")
 
 class Item(BaseModel):
     article: str
